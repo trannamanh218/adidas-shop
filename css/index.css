@@ -44,8 +44,6 @@ a {
   margin: 15px 0px;
 }
 
-
-
 /* css phần menu */
 #header {
   background: rgb(233, 129, 55);
@@ -114,20 +112,22 @@ a {
 #main-menu > li:hover > a::before {
   width: 100%;
 }
-#main-menu .sub-menu li:hover>a {
+#main-menu .sub-menu li:hover > a {
   background-color: rgb(118, 118, 118);
-  color: rgb(237, 168, 122);
+  color: rgb(242, 147, 99);
 }
+
+/* product */
 .product {
   margin: 30px 0px;
 }
-.product>.title-product {
+.product > .title-product {
   text-align: center;
 }
-.product>.title-product h2 {
-   color: rgb(240, 140, 53);
-   text-transform: capitalize;
-   padding: 30px 0px 0px 0px ;
+.product > .title-product h2 {
+  color: rgb(240, 140, 53);
+  text-transform: capitalize;
+  padding: 30px 0px 0px 0px;
 }
 .items-product {
   position: relative;
@@ -138,7 +138,7 @@ a {
   overflow: hidden;
 }
 .items-product .image-items-product a img {
-  filter:brightness(50%);
+  filter: brightness(50%);
 }
 .items-product .title-items-product {
   position: absolute;
@@ -147,25 +147,24 @@ a {
   right: 0px;
   bottom: 0px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 .items-product .title-items-product a p {
-    font-size: 30px;
-    font-weight: 500;
-    text-transform: capitalize;
-    color: aliceblue;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: aliceblue;
 }
 
-
-
+/* sản phẩm bán chạy */
 .hot-product {
   margin: 50px 0px;
 }
 .title-hot-product {
   margin-top: 30px;
   margin-bottom: 20px;
-  text-transform:capitalize;
+  text-transform: capitalize;
   text-align: center;
 }
 .list-products-hot-product {
@@ -187,20 +186,24 @@ a {
   margin: 0px;
 }
 .items-information-hot-product .pricee .cost {
-   font-size: 15px;
-   margin: 0px;
-   text-decoration-line: line-through;
+  font-size: 15px;
+  margin: 0px;
+  text-decoration-line: line-through;
 }
-.buy-button>a>p {
+.buy-button > a > p {
   background: #e92929;
-    padding: 7px;
-    color: white;
-    border-radius: 5px;
+  padding: 7px;
+  color: white;
+  border-radius: 5px;
 }
+
+/* thông tin về cửa hàng */
 .store-information {
   margin-top: 80px;
   margin-bottom: 80px;
 }
+
+/* tin tức */
 .adidas-news .title-adidas-news {
   margin-bottom: 20px;
 }
@@ -210,14 +213,24 @@ a {
 .posts-new-adidas {
   margin-bottom: 24px;
 }
+
+/* chân trang */
 .main-footer {
   background: rgb(39, 39, 39);
   padding: 50px 0px;
   margin-top: 50px;
 }
+.isocial-group {
+  padding: 0px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+}
+.isocial-group li {
+  list-style: none;
+}
 .col-footer .headingFooter {
   margin-bottom: 20px;
-  color:rgb(215, 215, 215);
+  color: rgb(215, 215, 215);
 }
 .col-footer .nav_footer a p {
   color: rgb(125, 125, 125);
@@ -225,20 +238,15 @@ a {
 .col-info-right {
   margin-top: 20px;
 }
-.col-info-right h4  {
-  color:rgb(215, 215, 215);
+.col-info-right h4 {
+  color: rgb(215, 215, 215);
 }
-
-
-
-
-
-
-
-
-
-
-
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-phone {
+  font-size: 25px;
+}
 
 .dp {
   display: flex;
