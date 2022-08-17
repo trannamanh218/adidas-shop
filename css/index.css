@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px auto;
+  padding: 0px;
+}
+.container {
+  width: 1440px;
+  margin: auto;
+  padding: 0px;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+/* css phần narrbavv */
+.example {
+  width: 350px;
+  margin: auto;
+  position: relative;
+}
+.search-bottom {
+  width: 100%;
+  padding: 0px 10px;
+  border: 1px solid rgb(154, 154, 154);
+  border-radius: 10px;
+}
+.fa-magnifying-glass {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  color: rgb(134, 134, 134);
+}
+.navvbarr-icon > a {
+  color: rgb(106, 106, 106);
+}
+.fa-cart-arrow-down {
+  margin: 0px 30px;
+}
+.navvbarr {
+  margin: 15px 0px;
+}
+
+
+
+/* css phần menu */
+#header {
+  background: rgb(233, 129, 55);
+}
+#main-menu {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+#main-menu li {
+  list-style: none;
+}
+#main-menu li {
+  position: relative;
+}
+#main-menu li a {
+  color: aliceblue;
+  display: flex;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  align-items: center;
+}
+#main-menu ul.sub-menu {
+  position: absolute;
+  background: rgb(79, 79, 79);
+  padding: 0px;
+  list-style: none;
+  width: 200px;
+  border: 1px solid rgb(133, 133, 133);
+  display: none;
+}
+#main-menu li:hover > ul.sub-menu {
+  display: block;
+  z-index: 1;
+}
+#main-menu ul.sub-menu a {
+  padding: 8px 15px;
+  left: 0px;
+  border-bottom: 1px solid rgb(133, 133, 133);
+}
+#main-menu ul.sub-menu ul.sub-menu {
+  left: 198px;
+  top: -1px;
+}
+#main-menu > li > a {
+  position: relative;
+}
+#main-menu > li > a > i {
+  margin-left: 10px;
+}
+#main-menu li a {
+  display: flex;
+  justify-content: space-between;
+}
+#main-menu > li > a::before {
+  content: "";
+  height: 4px;
+  width: 0px;
+  background: rgb(237, 71, 71);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#main-menu > li:hover > a::before {
+  width: 100%;
+}
+#main-menu .sub-menu li:hover>a {
+  background-color: rgb(118, 118, 118);
+  color: rgb(237, 168, 122);
+}
+.product {
+  margin: 30px 0px;
+}
+.product>.title-product {
+  text-align: center;
+}
+.product>.title-product h2 {
+   color: rgb(240, 140, 53);
+   text-transform: capitalize;
+   padding: 30px 0px 0px 0px ;
+}
+.items-product {
+  position: relative;
+  padding-bottom: 24px;
+}
+.items-product .image-items-product {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.items-product .image-items-product a img {
+  filter:brightness(50%);
+}
+.items-product .title-items-product {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.items-product .title-items-product a p {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+
+
+.hot-product>.title-hot-product {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-transform:capitalize;
+  text-align: center;
+
+}
+.list-products-hot-product {
+  border: 1px solid rgb(219, 219, 219);
+  margin-bottom: 24px;
+}
+.information-hot-product {
+  padding: 10px 10px 0px 10px;
+}
+.title-information-hot-product a {
+  color: #5c5c5c;
+}
+.items-information-hot-product {
+  padding-top: 10px;
+}
+.items-information-hot-product .pricee .price {
+  color: red;
+  font-size: 18px;
+  margin: 0px;
+}
+.items-information-hot-product .pricee .cost {
+   font-size: 15px;
+   margin: 0px;
+   text-decoration-line: line-through;
+}
+.buy-button>a>p {
+  background: #e92929;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+}
+.store-information {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.adidas-news .title-adidas-news {
+  margin-bottom: 20px;
+}
+.adidas-news .title-adidas-news:first-letter {
+  text-transform: capitalize;
+}
+.posts-new-adidas {
+  margin-bottom: 24px;
+}
+.main-footer {
+  background: rgb(39, 39, 39);
+  padding: 50px 0px;
+  margin-top: 50px;
+}
+.col-footer .headingFooter {
+  margin-bottom: 20px;
+  color:rgb(215, 215, 215);
+}
+.col-footer .nav_footer a p {
+  color: rgb(125, 125, 125);
+}
+.col-info-right {
+  margin-top: 20px;
+}
+.col-info-right h4  {
+  color:rgb(215, 215, 215);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dp {
+  display: flex;
+  justify-content: space-between;
+}
