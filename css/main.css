@@ -7,7 +7,7 @@ body {
 }
 .container {
   width: 1440px;
-  margin: auto;
+  margin: 0px auto;
   height: auto;
   padding: 0px;
 }
@@ -89,7 +89,11 @@ p {
   padding: 10px 10px 0px 10px;
 }
 .title-information-hot-product a {
-  color: #5c5c5c;
+  color: #555555;
+  transition: 0.5s;
+}
+.title-information-hot-product a:hover {
+  color: #000000;
 }
 .items-information-hot-product {
   padding-top: 10px;
@@ -109,6 +113,10 @@ p {
   padding: 7px;
   color: white;
   border-radius: 5px;
+  transition: 0.25s;
+}
+.items-information-hot-product>.buy-button>a>p:hover{
+  background-color: rgb(164, 6, 6);
 }
 
 
@@ -165,6 +173,7 @@ p {
   color: rgb(215, 215, 215);
   margin-bottom: 50px;
   margin-top: 30px;
+  font-size: 20px;
 }
 .fa-facebook,
 .fa-twitter,

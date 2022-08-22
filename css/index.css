@@ -36,9 +36,12 @@
   font-size: 30px;
   font-weight: 500;
   text-transform: capitalize;
-  color: aliceblue;
+  color: rgb(209, 209, 209);
+  transition: 0.5s;
 }
-
+.items-product .title-items-product a p:hover {
+  color: rgb(255, 255, 255);
+}
 
 /* thông tin về cửa hàng */
 .store-information {

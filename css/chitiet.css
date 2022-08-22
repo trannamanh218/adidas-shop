@@ -1,0 +1,82 @@
+.dp-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.product-details {
+    margin: 40px 0px;
+}
+.other-image-product {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.right>.title-product>p {
+    font-size: 22px;
+    margin: 0px;
+}
+.right>.pricee>.price {
+    font-size: 20px;
+    color: red;
+   margin: 0px;
+}
+.right>.pricee>.cost {
+    text-decoration: line-through;
+    margin: 0px;
+}
+.classifica {
+    margin-bottom: 10px;
+}
+.fa-star {
+    color: rgb(237, 214, 95);
+    margin-right: 8px;
+}
+.product-size {
+    width: 50%;
+}
+.product-size>.sizes {
+    border: 1px solid rgb(188, 188, 188);
+    padding: 0px 5px;
+}
+.product-size>.sizes>a {
+    color: rgb(126, 126, 126);
+}
+.amount-product {
+    margin: 10px 0px;
+    width: 20%;
+}
+.Product-commitment {
+    text-align: center;
+}
+.Product-commitment .box-commitment {
+    border: 1px solid rgb(206, 206, 206);
+    margin-right: 15px;
+    padding: 10px 10px;
+}
+.detail-add-cart  {
+    margin: 20px 0px;
+    display: flex;
+}
+.buy-button>.btn-primary {
+    width: 250px;
+    background-color: rgb(245, 47, 47);
+    border: none;
+    padding: 10px 10px;
+    margin-right: 30px;
+    transition: 0.25s;
+} 
+.buy-button>.btn-primary:hover {
+    background-color: rgb(196, 0, 0);
+}
+.add-to-cart>.btn-primary {
+    width: 250px;
+    background-color: rgb(238, 169, 79);
+    color: rgb(51, 51, 51);
+    border: none;
+    padding: 10px;
+}
+.add-to-cart>.btn-primary:hover {
+    background-color: rgb(230, 129, 14);
+}
+.title-hot-product {
+    text-align: left;
+}
