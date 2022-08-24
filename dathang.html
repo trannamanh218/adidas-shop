@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>dat-hang</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/dathang.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner-image">
+        <a href="#">
+          <p>Miễn phí giao hàng trên 1.300.00Đ</p>
+        </a>
+        <a href="#">
+          <p>Trả hàng dễ</p>
+        </a>
+        <a href="#">
+          <p>nay đã có thanh toán thẻ tín dụng</p>
+        </a>
+      </div>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo" href="index.html">
+            <img src="img/Adidas_Logo.svg.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Trang Chủ<span class="visually-hidden">(current)</span></a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="do-nam.html"
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Đồ Nam</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="do-nam.html">tất cả</a>
+                  <a class="dropdown-item" href="do-nam.html">Giày nam</a>
+                  <a class="dropdown-item" href="#">Áo Nam</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Đồ Nữ</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="do-nu.html">tất cả</a>
+                  <a class="dropdown-item" href="do-nu.html">Giày nữ</a>
+                  <a class="dropdown-item" href="#">Áo nữ</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Phụ Kiện</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="phu-kien.html">tất cả</a>
+                  <a class="dropdown-item" href="phu-kien.html"
+                    >Phụ kiện giày</a
+                  >
+                  <a class="dropdown-item" href="#">Phụ kiện quần áo </a>
+                </div>
+              </li>
+            </ul>
+            <div class="icon-banner">
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="#"><i class="fa-solid fa-user-large"></i></a>
+              <a href="giohang.html"
+                ><i class="fa-solid fa-cart-arrow-down"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="order">
+        <div class="row">
+          <div class="col-12 col-md-7 box-left">
+            <div class="title-order-log-in dp-flex sp-between">
+              <div class="title-order">
+                <h5>Thông tin mua hàng</h5>
+              </div>
+              <div class="log-in-order dp-flex">
+                <div class="icon-log-in"><i class="fa-solid fa-user"></i></div>
+                <h5 class="title-log-in-order">Đăng nhập</h5>
+              </div>
+            </div>
+            <div class="row contact-use">
+              <div class="col-6">
+                <div class="email-order">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="formGroupExampleInput"
+                      placeholder="Email..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="number-phone-order">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="formGroupExampleInput"
+                      placeholder="Số điện thoại"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3 full-name-use">
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Họ và tên"
+              />
+            </div>
+            <select
+              class="form-select province"
+              aria-label="Default select example"
+            >
+              <option selected>Tỉnh thành</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select
+              class="form-select District"
+              aria-label="Default select example"
+            >
+              <option selected>Quận huyện</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select
+              class="form-select wards"
+              aria-label="Default select example"
+            >
+              <option selected>Phường xã</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <div class="mb-3 address">
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Địa chỉ đầy đủ"
+              />
+            </div>
+            <div class="form-check other-signifier">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label" for="flexCheckDefault">
+                Giao hàng đến địa chỉ khác
+              </label>
+            </div>
+            <div class="form-floating Note">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+              <label for="floatingTextarea2">Ghi chú ( tùy chọn )</label>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Vận chuyển</label
+              >
+              <input
+                type="transport"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="vui lòng nhập thông tin giao hàng"
+              />
+            </div>
+            <div class="pay-order">
+              <p>Thanh toán</p>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="exampleRadios1"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="exampleRadios1">
+                  Chuyển khoản qua ngân hàng
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="exampleRadios1"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="exampleRadios1">
+                  Thanh toán khi nhận hàng
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 box-right">
+            <h5 class="title-your-order">Đơn hàng của bạn</h5>
+            <div class="your-order">
+              <div class="row">
+                <div class="col-3 img-your-order">
+                  <img src="img/anhao1.jpg" alt="" />
+                </div>
+                <div class="col-9">
+                  <div class="name-product">
+                    <p>
+                      Giày Adidas chính hãng - rennew - reder 3 nam màu đen
+                      japan spost
+                    </p>
+                  </div>
+                  <div class="price-product">
+                    <p>1.500.000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="discount-code dp-flex sp-between">
+              <div class="discount-code-order">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Mã giảm giá"
+                />
+              </div>
+              <button type="button" class="btn btn-sm">Áp dụng</button>
+            </div>
+            <div class="bill-please dp-flex sp-between">
+              <div class="title-bill-please">Tạm tính :</div>
+              <div class="pirce-bill-please">1.500.000Đ</div>
+            </div>
+            <div class="transport-fee dp-flex sp-between">
+              <div class="title-transport-fee">Phí vận chuyển :</div>
+              <div class="pirce-transport-fee">0Đ</div>
+            </div>
+            <hr />
+            <div class="total-money dp-flex sp-between">
+              <div class="title-total-money">Tổng cộng :</div>
+              <div class="pirce-total-money">1.500.000Đ</div>
+            </div>
+            <div class="option dp-flex sp-between">
+              <div class="come-back">
+                <a href="#"><p>Quay về giỏ hàng</p></a>
+              </div>
+              <div class="Purchase">
+                <a href="#"><p>Đặt hàng</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="main-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8">
+              <div class="row">
+                <div class="col-4">
+                  <div class="col-footer">
+                    <div class="headingFooter">VỀ CHÚNG TÔI</div>
+                    <div class="nav_footer">
+                      <a href="#">
+                        <p>câu chuyện thương hiệu</p>
+                      </a>
+                      <a href="#">
+                        <p>tin tức</p>
+                      </a>
+                      <a href="#">
+                        <p>đôi cánh yêu thương</p>
+                      </a>
+                      <a href="#">
+                        <p>liên hệ</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="col-footer">
+                    <div class="headingFooter">CHÍNH SÁCH BÁN HÀNG</div>
+                    <div class="nav_footer">
+                      <a href="#">
+                        <p>Chính sách đổi hàng</p>
+                      </a>
+                      <a href="#">
+                        <p>Chính sánh bào hành</p>
+                      </a>
+                      <a href="#">
+                        <p>Chính sách hội viên</p>
+                      </a>
+                      <a href="#">
+                        <p>Chính sách giao nhận</p>
+                      </a>
+                      <a href="#">
+                        <p>Hướng dẫn mua hàng</p>
+                      </a>
+                      <a href="#">
+                        <p>Chính sách bảo mật</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="col-footer">
+                    <div class="headingFooter">TƯ VẤN</div>
+                    <div class="nav_footer">
+                      <a href="#">
+                        <p>Tư vấn phong cách</p>
+                      </a>
+                      <a href="#">
+                        <p>Tư vấn chọn size</p>
+                      </a>
+                      <a href="#">
+                        <p>Hỏi đáp</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="col-info-right">
+                <h4>THEO DÕI BẢN TIN CỦA CHÚNG TÔI</h4>
+                <form method="post" name="subscribe_form" id="subscribe_form">
+                  <div class="input-group mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="Email"
+                      aria-label="Nhập email của bạn..."
+                      placeholder="Nhập email của bạn..."
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary btn-subscribe"
+                    >
+                      ĐĂNG KÝ
+                    </button>
+                    <input type="submit" style="display: none" />
+                  </div>
+                </form>
+                <p>Kết nối với chúng tôi</p>
+                <ul class="isocial-group dp">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/c8cfe2fdd5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

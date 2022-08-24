@@ -1,0 +1,59 @@
+.dp-flex {
+    display: flex;
+}
+.sp-between {
+    justify-content: space-between;
+}
+.order {
+    margin: 20px 0px 50px 0px;
+}
+.box-left, .box-right {
+    margin-top: 30px;
+}
+.title-order-log-in, .form-select, .other-signifier, .Note {
+    margin-bottom: 20px;
+}
+.title-order-log-in>.title-order>h5 {
+    color: rgb(102, 102, 102);
+}
+.log-in-order>.icon-log-in>i {
+   margin-right: 20px;
+   color: rgb(89, 100, 225);
+}
+.log-in-order>.title-log-in-order {
+    color: rgb(80, 93, 240);
+}
+.title-your-order {
+    margin-bottom: 25px;
+    color: rgb(100, 100, 100);
+}
+.discount-code {
+   margin: 10px 0px;
+}
+.discount-code-order {
+    width: 280px;
+}
+.discount-code>button {
+    background: rgb(53, 53, 53);
+    color: aliceblue;
+}
+.bill-please, .total-money {
+    margin-bottom: 10px;
+}
+.pirce-total-money {
+    color: rgb(255, 89, 0);
+}
+.option>.come-back>a>p {
+    background-color: rgb(84, 84, 84);
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.option>.Purchase>a>p {
+    background-color: rgb(251, 76, 76);
+    color: aliceblue;
+    padding: 5px 50px;
+    border-radius: 5px;
+    text-align: center;
+}
