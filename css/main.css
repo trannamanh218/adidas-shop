@@ -190,7 +190,7 @@ p {
 
 /* sản phẩm bán chạy */
 .hot-product {
-  margin: 50px 0px;
+  margin: 0px 0px;
 }
 .title-hot-product {
   margin-top: 30px;
@@ -235,7 +235,6 @@ p {
 .items-information-hot-product > .buy-button > a > p:hover {
   background-color: rgb(164, 6, 6);
 }
-
 .carousel-control-prev-icon, .carousel-control-next-icon {
   background: none;
   width: 10px;
@@ -251,7 +250,7 @@ p {
 }
 .prev-icon{
   font-size: 2.5rem;
-  color: #8d8d8d;
+  color: #d3d3d3;
 }
 .carousel-control-nextt {
   position: absolute;
@@ -277,12 +276,17 @@ p {
   margin-bottom: 24px;
 }
 .title-posts-new-adidas {
-  color: #313131;
+  color: #202020;
   transition: 0.25s;
   margin: 2px;
+  text-transform:uppercase;
+  transition: 0.25;
 }
 .title-posts-new-adidas:hover {
-  color: #9d9d9d;
+  color: #b3b3b3;
+}
+.text-adidas-new {
+  color: #636363;
 }
 
 /* chân trang */

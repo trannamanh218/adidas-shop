@@ -14,18 +14,21 @@
     margin-bottom: 20px;
 }
 .title-order-log-in>.title-order>h5 {
-    color: rgb(102, 102, 102);
+    color: rgb(49, 49, 49);
 }
-.log-in-order>.icon-log-in>i {
-   margin-right: 20px;
-   color: rgb(89, 100, 225);
+.log-in-order>a>.icon-log-in>i {
+   margin-right: 10px;
+   color: rgb(84, 84, 84);
 }
-.log-in-order>.title-log-in-order {
-    color: rgb(80, 93, 240);
+.log-in-order>a>.title-log-in-order {
+    color: rgb(117, 124, 192);
 }
 .title-your-order {
     margin-bottom: 25px;
-    color: rgb(100, 100, 100);
+    color: rgb(53, 53, 53);
+}
+.your-order {
+    margin-bottom: 20px;
 }
 .discount-code {
    margin: 10px 0px;
