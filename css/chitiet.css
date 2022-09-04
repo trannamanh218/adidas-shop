@@ -80,26 +80,27 @@
   padding: 10px 10px;
 }
 .detail-add-cart {
-  margin: 20px 0px;
+  margin: 20px 0px 10px 0px;
   display: flex;
+  flex-wrap: wrap;
 }
 .buy-button > .btn-primary {
-  width: 250px;
+  
   background-color: rgb(245, 47, 47);
   border: none;
-  padding: 10px 10px;
-  margin-right: 30px;
+  padding: 10px 125px;
   transition: 0.25s;
+  margin-bottom: 20px;
 }
 .buy-button > .btn-primary:hover {
   background-color: rgb(196, 0, 0);
 }
 .add-to-cart > .btn-primary {
-  width: 250px;
+  
   background-color: rgb(238, 169, 79);
   color: rgb(51, 51, 51);
   border: none;
-  padding: 10px;
+  padding: 10px 80px;
 }
 .add-to-cart > .btn-primary:hover {
   background-color: rgb(230, 129, 14);
