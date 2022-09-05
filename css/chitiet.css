@@ -76,35 +76,91 @@
 }
 .Product-commitment .box-commitment {
   border: 1px solid rgb(206, 206, 206);
-  margin-right: 15px;
   padding: 10px 10px;
+  background: rgb(82, 127, 142);
+  color: rgb(243, 243, 243);
 }
 .detail-add-cart {
   margin: 20px 0px 10px 0px;
   display: flex;
-  flex-wrap: wrap;
 }
 .buy-button > .btn-primary {
-  
+  width: 150px;
+  padding: 10px;
   background-color: rgb(245, 47, 47);
   border: none;
-  padding: 10px 125px;
   transition: 0.25s;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .buy-button > .btn-primary:hover {
   background-color: rgb(196, 0, 0);
 }
 .add-to-cart > .btn-primary {
-  
+  width: 175px;
+  padding: 10px;
+  margin-bottom: 20px;
   background-color: rgb(238, 169, 79);
   color: rgb(51, 51, 51);
   border: none;
-  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .add-to-cart > .btn-primary:hover {
   background-color: rgb(230, 129, 14);
 }
 .title-hot-product {
   text-align: left;
+}
+
+@media only screen and (max-width: 767px) {
+  .buy-button > .btn-primary {
+    width: 130px;
+    padding: 10px;
+    background-color: rgb(245, 47, 47);
+    border: none;
+    transition: 0.25s;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .add-to-cart > .btn-primary {
+    width: 175px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(238, 169, 79);
+    color: rgb(51, 51, 51);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .buy-button > .btn-primary {
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(245, 47, 47);
+    border: none;
+    transition: 0.25s;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .add-to-cart > .btn-primary {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(238, 169, 79);
+    color: rgb(51, 51, 51);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
