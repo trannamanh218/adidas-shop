@@ -72,7 +72,8 @@ section .noi-dung .form .input-form input{
      background: transparent;
      border-radius: 30px;
      }
-     section .noi-dung .form .input-form .dang-nhap>p{
+
+     section .noi-dung .form .input-form .dang-ky>p{
         width: 100%;
         padding: 10px 20px;
         outline: none;
@@ -84,7 +85,7 @@ section .noi-dung .form .input-form input{
         border-radius: 30px;
         text-align: center;
         }
- section .noi-dung .form .input-form .dang-nhap>p{
+ section .noi-dung .form .input-form .dang-ky>p{
      background: #ff4551;
      color: #fff;
      outline: none;
@@ -97,19 +98,19 @@ section .noi-dung .form .input-form input{
                0 8px 8px rgba(0,0,0,0.12),
                0 16px 16px rgba(0,0,0,0.12);
  }
-section .noi-dung .form .input-form .dang-nhap>p:hover{
+section .noi-dung .form .input-form .dang-ky>p:hover{
      background: #737373;
  }
  section .noi-dung .form .nho-dang-nhap{
      margin-bottom: 10px;
-     color: #607d8b;
+     color: #121313;
      font-size: 14px;
  }
  section .noi-dung .form .input-form p{
      color: #607d8b;
  }
 section .noi-dung .form .input-form p a{
-     color: #ff4551;
+     color: #3146e6;
  }
 
 section .noi-dung .form h4{
