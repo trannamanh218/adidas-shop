@@ -31,6 +31,7 @@
 }
 .price-and-amount {
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .size-my-shopping-cart {
     font-size: 20px;
