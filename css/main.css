@@ -348,6 +348,7 @@ p {
   margin: 2px;
   text-transform:uppercase;
   transition: 0.25;
+  margin: 0px;
 }
 .title-posts-new-adidas:hover {
   color: #b3b3b3;
