@@ -292,12 +292,17 @@ p {
 .items-information-hot-product > .buy-button > a > p:hover {
   background-color: rgb(164, 6, 6);
 }
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.hot-product .slide .carousel-control-prevv .carousel-control-prev-icon{
   background: none;
-  width: 10px;
+  width: 1px;
   height: 0px;
 }
-.carousel-control-prevv {
+.hot-product>.slide>.carousel-control-nextt>.carousel-control-next-icon {
+  background: none;
+  width: 1px;
+  height: 0px;
+}
+.hot-product .slide .carousel-control-prevv {
   position: absolute;
   top: 0px;
   bottom: 53px;
@@ -305,7 +310,7 @@ p {
   border: none;
   background: none;
 }
-.carousel-control-prevv .carousel-control-prev-icon .prev-icon {
+.hot-product .slide .carousel-control-prevv .carousel-control-prev-icon .prev-icon {
   background: rgb(154, 154, 154);
   border-radius: 50px;
   padding: 10px 15px;
@@ -314,15 +319,15 @@ p {
   font-size: 1.5rem;
   color: #d3d3d3;
 }
-.carousel-control-nextt {
+.hot-product .slide .carousel-control-nextt {
   position: absolute;
   top: 0px;
   bottom: 53px;
-  right: 30px;
+  right: 39px;
   border: none;
   background: none;
 }
-.carousel-control-nextt .carousel-control-next-icon .fa-angle-right {
+.hot-product>.slide>.carousel-control-nextt>.carousel-control-next-icon>.prev-icon {
   background: rgb(154, 154, 154);
   border-radius: 50px;
   padding: 10px 15px;
