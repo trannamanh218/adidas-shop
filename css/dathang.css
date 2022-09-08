@@ -52,6 +52,11 @@
     padding: 5px 10px;
     border-radius: 5px;
     text-align: center;
+    transition: 0.25s;
+}
+.option>.come-back>a>p:hover {
+    background-color: rgb(230, 230, 230);
+    color: rgb(49, 49, 49);
 }
 .option>.Purchase>a>p {
     background-color: rgb(251, 76, 76);
@@ -59,4 +64,8 @@
     padding: 5px 50px;
     border-radius: 5px;
     text-align: center;
+    transition: 0.25s;
+}
+.option>.Purchase>a>p:hover {
+    background-color: rgb(182, 36, 28);
 }
