@@ -40,7 +40,19 @@
 .filter {
   margin-right: 40px;
 }
-
+.card>.img-card {
+  overflow: hidden; 
+}
+.card>.img-card>a>img {
+  overflow: hidden;
+  display: block;
+  transition: 0.5s
+}
+.card>.img-card>a>img:hover {
+  transform: scale(1.1);
+  cursor: pointer; 
+  
+}
 .information-card {
   padding: 10px 10px;
 }
@@ -73,6 +85,7 @@
 
 .price-card {
   display: flex;
+  flex-wrap: wrap;
 }
 .price-card .bottom-piece {
   margin-top: 4px;
@@ -130,10 +143,15 @@
   margin-bottom: 30px;
 }
 
-/* @media only screen and (max-width: 580px) {
-      
+  @media only screen and (max-width: 580px) {
+    .price-card .bottom-piece{
+      margin: 0px;
     }
-  @media only screen and (max-width: 992px) {
-       
-  }
-   */
+     .add-to-cart-and-purchase {
+      display: none;
+     }
+    }
+  @media only screen and (min-width: 760px) {
+    
+  } 
+
