@@ -139,7 +139,12 @@ p {
 .collapse {
   justify-content: space-between;
 }
-
+.news-nav-item-dropdown {
+  color: var(--bs-nav-link-color);
+}
+.news-nav-item-dropdown:hover {
+  color: var(--bs-nav-link-hover-color);
+}
 
 /*nút tìm kiếm*/
 
@@ -356,8 +361,18 @@ p {
 .posts-new-adidas {
   margin-bottom: 24px;
 }
+.img-adidas-news {
+  overflow: hidden;
+}
+.img-adidas-news>a>img {
+  transition: 0.25s;
+}
+.img-adidas-news>a>img:hover {
+  transform: scale(1.1);
+    cursor: pointer;
+}
 .title-posts-new-adidas {
-  color: #202020;
+  color: #171717;
   transition: 0.25s;
   margin: 2px;
   text-transform:uppercase;
@@ -365,12 +380,15 @@ p {
   margin: 0px;
 }
 .title-posts-new-adidas:hover {
-  color: #b3b3b3;
+  color: #ec629b;
 }
 .text-adidas-new {
-  color: #636363;
+  color: #686868;
+  transition: 0.25s;
 }
-
+.text-adidas-new:hover {
+  color: #b2b2b2;
+}
 /* chân trang */
 .main-footer {
   background: rgb(39, 39, 39);
