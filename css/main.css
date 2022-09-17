@@ -290,6 +290,7 @@ p {
 }
 .items-information-hot-product {
   padding-top: 10px;
+  flex-wrap: wrap;
 }
 .items-information-hot-product .pricee .price {
   color: red;
