@@ -115,7 +115,9 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a href="tin-tuc.html" class="news-nav-item-dropdown">Tin tức</a>
+                <a href="tin-tuc.html" class="news-nav-item-dropdown"
+                  >Tin tức</a
+                >
               </li>
             </ul>
             <ul id="main-menu">
@@ -370,21 +372,21 @@
                 <div class="size-my-shopping-cart">Màu sắc :</div>
                 <div class="color-my-shopping-cart"></div>
               </div>
-              <div class="Product-commitment ">
+              <div class="Product-commitment">
                 <div class="row">
                   <div class="col-4">
                     <div class="box-commitment">
-                      <p>Vận chuyển nội thành Hà Nội trong vòng 2 tiếng </p>
+                      <p>Vận chuyển nội thành Hà Nội trong vòng 2 tiếng</p>
                     </div>
                   </div>
                   <div class="col-4">
                     <div class="box-commitment">
-                      <p>Hàng xách tay nhật fullbox hàng mới 100% </p>
+                      <p>Hàng xách tay nhật fullbox hàng mới 100%</p>
                     </div>
                   </div>
                   <div class="col-4">
                     <div class="box-commitment">
-                     <p>Mua sắm dễ hơn khi online. Thanh toán an toàn </p>
+                      <p>Mua sắm dễ hơn khi online. Thanh toán an toàn</p>
                     </div>
                   </div>
                 </div>
@@ -973,6 +975,50 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <h2>Autoplay</h2>
+      <div class="slider autoplay">
+        <div>
+          <h3>1</h3>
+        </div>
+        <div>
+          <h3>2</h3>
+        </div>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+        <div>
+          <h3>5</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
@@ -1014,6 +1060,12 @@
           dots: true,
           centerMode: true,
           focusOnSelect: true,
+        });
+        $(".autoplay").slick({
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
         });
       });
     </script>
